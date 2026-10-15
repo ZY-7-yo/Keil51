@@ -1,0 +1,25 @@
+# ---- Keil 编译产物（每次编译都会重新生成，不需要上传）----
+Objects/
+Listings/
+*.obj
+*.lst
+*.m51
+*.lnp
+*.hex
+*.build_log.htm
+*.plg
+*.dep
+*.crf
+
+# ---- Keil 用户设置与界面布局（每台电脑都不一样）----
+*.uvgui.*
+*.uvopt
+*.uvproj.bak
+
+# ---- 编译器临时文件 ----
+*.__i
+
+# ---- 系统杂项 ----
+Thumbs.db
+desktop.ini
+.DS_Store
